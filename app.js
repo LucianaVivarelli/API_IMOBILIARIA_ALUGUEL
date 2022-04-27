@@ -4,9 +4,10 @@ const express = require('express') // importação expres
 const app = express() // instanciou express dentro de app
 const port = 4000 // escolhendo a porta
 
-const clienteController = require(`./controllers/cliente-controller`);
+const clienteController = require(`./src/controllers/cliente-controller`);
 
-const Cliente = require('./models/cliente-model');
+const Cliente = require('./src/models/cliente-model');
+
 
 
 
